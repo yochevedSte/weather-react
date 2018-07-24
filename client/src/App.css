@@ -1,0 +1,61 @@
+.App {
+
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.search-city-group{
+  width:100%;
+}
+
+.weather-box-container{
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin: 5px;
+  
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.comment-list-container{
+  text-align: left;
+  margin-top: 10px;
+}
+
+.comment-container{
+  padding-right: 15px;
+}
+
+.glyphicon-trash:hover { 
+  color: red;
+}
